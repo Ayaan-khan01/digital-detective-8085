@@ -161,3 +161,10 @@ a9bf7b8 Document operating system and file management
 31ea9cb Complete computer basics and IPOS mission
 
 Pull Request status: Created via `gh pr create` (https://github.com/Ayaan-khan01/digital-detective-8085/pull/1), merged locally into `main`, and pushed to GitHub.
+
+=== Mission 7: Computer Networks ===
+$ ping -c 3 example.com (summary)
+3 packets transmitted, 3 packets received, 0.0% packet loss; round-trip min/avg/max/stddev = 19.521/23.927/26.665/3.146 ms
+
+$ nslookup example.com (resolved public IPs; local DNS server omitted)
+104.20.23.154, 172.66.147.243
