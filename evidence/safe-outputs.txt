@@ -119,3 +119,22 @@ xorgproto
 xz
 zstd
 docker-desktop
+
+=== Mission 3: Operating System & Permissions ===
+$ uname -srm
+Darwin 27.2.0 arm64
+
+$ df -h /
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   926Gi    13Gi   652Gi     2%    487k  4.3G    0%   /
+
+$ ps -eo pid,comm | head -n 6
+  PID COMM
+    1 /sbin/launchd
+  340 /usr/libexec/logd
+  342 /usr/libexec/smd
+  343 /usr/libexec/UserEventAgent
+  345 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+
+$ ls -l terminal-practice/notes.txt
+-rw-r--r--@ 1 [redacted]  staff  59 26 Nov 23:25 terminal-practice/notes.txt
